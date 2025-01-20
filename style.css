@@ -1,5 +1,11 @@
 body {
+    margin: 0;
+}
+
+.titleBackground {
+    margin-top: 0;
     background-color: black;
+    height: 750px;
 }
 
 .titleImage {
@@ -25,9 +31,10 @@ body {
     width: 100px;
     height: 30px;
     font-family: 'Times New Roman', Times, serif;
-    
+    background-color: black;
+    border: 2px solid #3a483a;
+    color: #3a483a;
 }
-
 
 @keyframes titleAnimation {
     0% {top: 375px;}
@@ -59,4 +66,48 @@ body {
     50% {top: 150px;}
     75% {top: 125px;}    
     100% {top: 125px;}
+}
+
+.aboutMe {
+    padding-inline: 100px;
+    background-color: #3a483a;
+}
+
+.aboutMe h1, h2, h3, p{
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+}
+.aboutMe > ul, li, a{
+    color: white;
+}
+
+/* .passport {
+    display: flex;
+    flex-direction: column;
+} */
+
+.btmPrt {
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.prtInfoList {
+    border: 1px solid white;    
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.passport {
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.prtPic > img {
+    height: 200px;
 }
