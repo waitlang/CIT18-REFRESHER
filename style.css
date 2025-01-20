@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+}
+
+.titleImage {
+    top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: titleAnimation 12s cubic-bezier(.75,0,.25,1), titleLoop 2.4s cubic-bezier(.75,0,.25,1) 12s infinite;
+    /* animation-name: titleAnimation;
+    animation-duration: 12s; */ 
+    /* animation-timing-function:cubic-bezier(.75,0,.25,1); */
+}
+
+.titleImg {
+    height: 228px;
+    width: 511px;
+}
+
+#playButton {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+@keyframes titleAnimation {
+    0% {top: 375px;}
+    5% {top: 350px;}
+    10% {top: 350px;}
+    15% {top: 325px;}
+    20% {top: 325px;}
+    25% {top: 300px;}
+    30% {top: 300px;}
+    35% {top: 275px;}
+    40% {top: 275px;}
+    45% {top: 250px;}
+    50% {top: 250px;}
+    55% {top: 225px;}
+    60% {top: 225px;}
+    65% {top: 200px;}
+    70% {top: 200px;}
+    75% {top: 175px;}
+    80% {top: 175px;}
+    85% {top: 150px;}
+    90% {top: 150px;}
+    95% {top: 125px;}
+    100% {top: 125px; }
+}
+
+@keyframes titleLoop {
+    0% {top: 125px;}
+    25% {top: 150px;}
+    50% {top: 150px;}
+    75% {top: 125px;}    
+    100% {top: 125px;}
+}
