@@ -5,26 +5,26 @@ body {
 .titleBackground {
     margin-top: 0;
     background-color: black;
-    height: 750px;
+    height: 100vh;
 
 }
 
 .titleImage {
-    top: 125px;
+    top: 18.4vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    animation: titleAnimation 12s cubic-bezier(.75,0,.25,1), titleLoop 2.4s cubic-bezier(.75,0,.25,1) 12s infinite;
+    animation: titleAnimation 19.2s cubic-bezier(.75,0,.25,1), titleLoop 2.2s cubic-bezier(.75,0,.25,1) 19.8s infinite;
     /* animation-name: titleAnimation;
     animation-duration: 12s; */ 
     /* animation-timing-function:cubic-bezier(.75,0,.25,1); */
 }
 
 .titleImg {
-    height: 228px;
-    width: 511px;
+    height: 339px;
+    width: 760px;
 }
 
 #playButton {
@@ -41,35 +41,48 @@ body {
 }
 
 @keyframes titleAnimation {
-    0% {top: 375px;}
-    5% {top: 350px;}
-    10% {top: 350px;}
-    15% {top: 325px;}
-    20% {top: 325px;}
-    25% {top: 300px;}
-    30% {top: 300px;}
-    35% {top: 275px;}
-    40% {top: 275px;}
-    45% {top: 250px;}
-    50% {top: 250px;}
-    55% {top: 225px;}
-    60% {top: 225px;}
-    65% {top: 200px;}
-    70% {top: 200px;}
-    75% {top: 175px;}
-    80% {top: 175px;}
-    85% {top: 150px;}
-    90% {top: 150px;}
-    95% {top: 125px;}
-    100% {top: 125px; }
+    0% {top: 100vh;}
+    3% {top: 95.2vh;}
+    6% {top: 95.2vh;}
+    9% {top: 90.4vh;}
+    12% {top: 90.4vh;}
+    15% {top: 85.6vh;}
+    18% {top: 85.6vh;}
+    21% {top: 80.8vh;}
+    24% {top: 80.8vh;}
+    27% {top: 76.0vh;}
+    30% {top: 76.0vh;}
+    33% {top: 71.2vh;}
+    36% {top: 71.2vh;}
+    39% {top: 66.4vh;}
+    42% {top: 66.4vh;}
+    45% {top: 61.6vh;}
+    48% {top: 61.6vh;}
+    51% {top: 56.8vh;}
+    54% {top: 56.8vh;}
+    57% {top: 52.0vh;}
+    60% {top: 52.0vh;}
+    63% {top: 47.2vh;}
+    66% {top: 47.2vh;}
+    69% {top: 42.4vh;}
+    72% {top: 42.4vh;}
+    75% {top: 37.6vh;}
+    78% {top: 37.6vh;}
+    81% {top: 32.8vh;}
+    84% {top: 32.8vh;}
+    87% {top: 28.0vh;}
+    90% {top: 28.0vh;}
+    93% {top: 23.2vh;}
+    96% {top: 23.2vh;}
+    100% {top: 18.4vh;}
 }
 
 @keyframes titleLoop {
-    0% {top: 125px;}
-    25% {top: 150px;}
-    50% {top: 150px;}
-    75% {top: 125px;}    
-    100% {top: 125px;}
+    0% {top: 18.4vh;}
+    25% {top: 22vh;}
+    50% {top: 22vh;}
+    75% {top: 18.4vh;}    
+    100% {top: 18.4vh;}
 }
 
 .aboutMe {
@@ -135,7 +148,7 @@ body {
 }
 
 .prtPic > img {
-    height: 200px;
+    height: 44vh;
 }
 
 .prtInfoUl, .prtInfoLi {
